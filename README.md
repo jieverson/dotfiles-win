@@ -1,5 +1,5 @@
 # dotfiles-win
-My Bash on Windows configuration files.
+My ~~Bash~~ Zsh on Ubuntu on Windows configuration files.
 
 ### usage
 Just run `install.sh` for pull last git version and symlink all dotfiles.
