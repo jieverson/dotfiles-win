@@ -1,5 +1,6 @@
+echo "apt-get update..."
 sudo apt-get -qq update
-echo "apt-get update"
+echo "update done!"
 
 sudo apt-get -qq install zsh git
 echo "base packeges are installed"
