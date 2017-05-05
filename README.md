@@ -17,4 +17,10 @@ $ ~/.dotfiles/install.sh
   <img src="screenshots/working.png" />
 </p>
 
-> **TODO:** add Cmder configuration files
+> **Windows Wallpaper for 4k resolution:** [./wallpaper.jpg](https://rawgit.com/jieverson/dotfiles-win/master/wallpaper.jpg)
+
+### About My Terminal Emulator
+
+As you can see at screenshots, I'm not using Windows default console emulator.
+I'm using [Cmder](http://cmder.net/) ([GitHub Repo](https://github.com/cmderdev/cmder)).
+It's a customizable Windows Console Emulator and my settings can be found at [./cmder/config/ConEmu.xml](https://rawgit.com/jieverson/dotfiles-win/master/cmder/config/ConEmu.xml).
