@@ -7,7 +7,7 @@ echo "base packeges are installed"
 git pull
 echo "dotfiles are up to date"
 
-ln -sf $(pwd)/bashrc ~/.bachrc
+ln -sf $(pwd)/bashrc ~/.bashrc
 echo "zsh as default shell"
 
 # install oh-my-zsh
