@@ -20,6 +20,7 @@ To keep up to date, you can just `pull` this repo, and re-run `install.sh`.
 <p align="center">
   <img src="screenshots/working.png" />
 </p>
+
 > **Windows Wallpaper for 4k resolution:** [./wallpaper.jpg](https://rawgit.com/jieverson/dotfiles-win/master/wallpaper.jpg)
 
 ### About My Terminal Emulator
