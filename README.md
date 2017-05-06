@@ -18,6 +18,9 @@ To keep up to date, you can just `pull` this repo, and re-run `install.sh`.
   <img src="screenshots/screenfetch.png" />
 </p>
 <p align="center">
+  <img src="screenshots/consoles.png" />
+</p>
+<p align="center">
   <img src="screenshots/working.png" />
 </p>
 
