@@ -32,6 +32,9 @@ ln -sf /mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe ~/.bi
 ln -sf /mnt/c/Program\ Files/MPC-HC/mpc-hc64.exe ~/.bin/mpchc
 echo "alias for windows programs"
 
+mkdir -p ~/.scripts
+cp $(pwd)/scripts/* ~/.scripts/
+
 rm -f ~/c
 ln -sf /mnt/c ~/c
 rm -f ~/projects
