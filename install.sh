@@ -49,5 +49,5 @@ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get -qq install npm nodejs
 echo "dev tools installed"
 
-sudo apt-get -qq install cowsay fortune screenfetch
+sudo apt-get -qq install cowsay fortune screenfetch lolcat figlet sl cmatrix
 echo "other cool stuff installed"
