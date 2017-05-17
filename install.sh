@@ -26,6 +26,11 @@ echo ".zshrc symlinked"
 ln -sf $(pwd)/gitconfig ~/.gitconfig
 echo ".gitconfig symlinked"
 
+mkdir -p ~/config
+mkdir -p ~/config/ranger
+ln -sf $(pwd)/config/ranger/rc.conf ~/.config/ranger/rc.conf
+echo "other configs symlinked"
+
 mkdir -p ~/.bin
 ln -sf $(pwd)/bin/start ~/.bin/start
 ln -sf /mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe ~/.bin/chrome
@@ -49,5 +54,5 @@ curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
 sudo apt-get -qq install npm nodejs
 echo "dev tools installed"
 
-sudo apt-get -qq install cowsay fortune screenfetch lolcat figlet sl cmatrix
+sudo apt-get -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
 echo "other cool stuff installed"
