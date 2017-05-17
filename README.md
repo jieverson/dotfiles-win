@@ -18,13 +18,13 @@ To keep up to date, you can just `pull` this repo, and re-run `install.sh`.
   <img src="screenshots/screenfetch.png" />
 </p>
 <p align="center">
-  <img src="screenshots/hyper.gif" />
-</p>
-<p align="center">
-  <img src="screenshots/consoles.png" />
+  <img src="screenshots/fun.png" />
 </p>
 <p align="center">
   <img src="screenshots/working.png" />
+</p>
+<p align="center">
+  <img src="screenshots/lol.gif" />
 </p>
 
 > **Windows Wallpaper for 4k resolution:** [./wallpaper.jpg](https://rawgit.com/jieverson/dotfiles-win/master/wallpaper.jpg)
@@ -32,5 +32,6 @@ To keep up to date, you can just `pull` this repo, and re-run `install.sh`.
 ### About My Terminal Emulator
 
 As you can see at screenshots, I'm not using Windows default console emulator.
-I'm using [Cmder](http://cmder.net/) ([GitHub Repo](https://github.com/cmderdev/cmder)).
-It's a customizable Windows Console Emulator and my settings can be found at [./cmder/config/ConEmu.xml](https://rawgit.com/jieverson/dotfiles-win/master/cmder/config/ConEmu.xml).
+I'm using [Hyper](https://hyper.is). It's a customizable Terminal Emulator built in js. My settings can be found at [.hyper.js](https://rawgit.com/jieverson/dotfiles-win/master/.hyper.js).
+
+> I've been using [Cmder](http://cmder.net/) ([GitHub Repo](https://github.com/cmderdev/cmder)) in the past, and my settings can be found at [./cmder/config/ConEmu.xml](https://rawgit.com/jieverson/dotfiles-win/master/cmder/config/ConEmu.xml).
