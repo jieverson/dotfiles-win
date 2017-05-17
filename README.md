@@ -21,10 +21,10 @@ To keep up to date, you can just `pull` this repo, and re-run `install.sh`.
   <img src="screenshots/fun.png" />
 </p>
 <p align="center">
-  <img src="screenshots/working.png" />
+  <img src="screenshots/midia.png" />
 </p>
 <p align="center">
-  <img src="screenshots/midia.png" />
+  <img src="screenshots/working.png" />
 </p>
 <p align="center">
   <img src="screenshots/lol.gif" />
