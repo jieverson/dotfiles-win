@@ -35,6 +35,11 @@ To keep up to date, you can just `pull` this repo, and re-run `install.sh`.
 ### About My Terminal Emulator
 
 As you can see at screenshots, I'm not using Windows default console emulator.
-I'm using [Hyper](https://hyper.is). It's a customizable Terminal Emulator built in js. My settings can be found at [.hyper.js](https://rawgit.com/jieverson/dotfiles-win/master/.hyper.js).
+I'm using [Hyper](https://hyper.is). It's a customizable Terminal Emulator built in js. 
+To use my settings, just copy [.hyper.js](https://rawgit.com/jieverson/dotfiles-win/master/.hyper.js) to your Windows home directory
+
+```
+cp ./.hyper.js ~/c/Users/{YOUR_USER}/
+```
 
 > I've been using [Cmder](http://cmder.net/) ([GitHub Repo](https://github.com/cmderdev/cmder)) in the past, and my settings can be found at [./cmder/config/ConEmu.xml](https://rawgit.com/jieverson/dotfiles-win/master/cmder/config/ConEmu.xml).
