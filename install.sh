@@ -26,8 +26,8 @@ echo ".zshrc symlinked"
 ln -sf $(pwd)/gitconfig ~/.gitconfig
 echo ".gitconfig symlinked"
 
-mkdir -p ~/config
-mkdir -p ~/config/ranger
+mkdir -p ~/.config
+mkdir -p ~/.config/ranger
 ln -sf $(pwd)/config/ranger/rc.conf ~/.config/ranger/rc.conf
 echo "other configs symlinked"
 
