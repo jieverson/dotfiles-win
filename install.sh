@@ -17,7 +17,8 @@ echo "zsh as default shell"
 
 # synlink oh-my-zsh theme
 mkdir -p ~/.oh-my-zsh && mkdir -p ~/.oh-my-zsh/themes
-ln -sf $(pwd)/oh-my-zsh/themes/my_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/my_robbyrussell.zsh-theme
+ln -sf $(pwd)/oh-my-zsh/themes/lambda_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/lambda_robbyrussell.zsh-theme
+ln -sf $(pwd)/oh-my-zsh/themes/emoji_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/emoji_robbyrussell.zsh-theme
 echo "oh my zsh configured!"
 
 ln -sf $(pwd)/zshrc ~/.zshrc
