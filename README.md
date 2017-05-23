@@ -8,7 +8,7 @@ Just run `install.sh` to install zsh (including oh-my-zsh and other important st
 
 ```
 $ git clone https://github.com/jieverson/dotfiles-win.git ~/.dotfiles
-$ ~/.dotfiles/install.sh
+$ sudo ~/.dotfiles/install.sh
 ```
 
 To keep up to date, you can just `pull` this repo, and re-run `install.sh`.

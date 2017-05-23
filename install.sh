@@ -1,8 +1,8 @@
-echo "apt-get update..."
-sudo apt-get -qq update
+echo "apt update..."
+sudo apt -qq update
 echo "update done!"
 
-sudo apt-get -qq install zsh git
+sudo apt -qq install zsh git
 echo "base packeges are installed"
 
 git pull
@@ -52,8 +52,9 @@ ln -sf /mnt/c/Users/jieverson/Pictures ~/pictures
 echo "alias for windows folders"
 
 curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
-sudo apt-get -qq install npm nodejs
+sudo apt -qq install npm nodejs
+sudo npm install -g bower gulp grunt yo less mdpdf
 echo "dev tools installed"
 
-sudo apt-get -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
+sudo apt -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
 echo "other cool stuff installed"
