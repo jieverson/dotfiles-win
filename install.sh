@@ -57,7 +57,7 @@ sudo apt -qq install npm
 sudo apt -qq install python-pip
 echo "✔ apt dev tools installed"
 
-sudo npm install -g bower gulp grunt yo less mdpdf
+sudo npm install -g yarn webpack gulp grunt yo mdpdf
 echo "✔ npm -g dev tools installed"
 
 sudo apt -qq install caca-utils ranger cowsay fortune screenfetch lolcat figlet sl cmatrix
