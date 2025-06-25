@@ -12,11 +12,10 @@ ln -sf $(pwd)/bashrc ~/.bashrc
 echo "✔ zsh as default shell"
 
 # install oh-my-zsh
-[ -d ~/.oh-my-zsh ] || git clone https://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+[ -d ~/.oh-my-zsh ] || git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 [ -d ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting ] || git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
 
 # synlink oh-my-zsh theme
-mkdir -p ~/.oh-my-zsh && mkdir -p ~/.oh-my-zsh/themes
 ln -sf $(pwd)/oh-my-zsh/themes/lambda_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/lambda_robbyrussell.zsh-theme
 ln -sf $(pwd)/oh-my-zsh/themes/emoji_robbyrussell.zsh-theme ~/.oh-my-zsh/themes/emoji_robbyrussell.zsh-theme
 echo "✔ oh my zsh configured!"
@@ -51,7 +50,7 @@ rm -f ~/pictures
 ln -sf /mnt/c/Users/jieverson/Pictures ~/pictures
 echo "✔ alias for windows folders"
 
-curl -sL https://deb.nodesource.com/setup_7.x | sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt -qq install nodejs
 sudo apt -qq install npm
 sudo apt -qq install python-pip
